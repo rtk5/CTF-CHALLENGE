@@ -1,15 +1,14 @@
 {
-    "version": 2,
-    "builds": [
-      { "src": "api/**/*.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-      { "src": "/set-cookie", "dest": "/api/set-cookie.js" },
-      { "src": "/secret", "dest": "/api/secret.js" },
-      { "src": "/robots.txt", "dest": "/api/robots.txt.js" },
-      { "src": "/hidden-url", "dest": "/api/hidden-url.js" },
-      { "src": "/sqli", "dest": "/api/sqli.js" },
-      { "src": "/", "dest": "/api/index.js" }
-    ]
-  }
-  
+  "version": 2,
+  "builds": [
+    { "src": "api/**/*.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/set-cookie", "dest": "/api/set-cookie.js" },
+    { "src": "/secret", "dest": "/api/secret.js" },
+    { "src": "/robots.txt", "dest": "/api/robots.txt.js" },
+    { "src": "/hidden-url", "dest": "/api/hidden-url.js" },
+    { "src": "/sqli", "dest": "/api/sqli.js" },
+    { "src": "/", "dest": "/api/index.js" }
+  ]
+}
